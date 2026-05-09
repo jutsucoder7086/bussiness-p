@@ -1,0 +1,133 @@
+{
+  "project_context": {
+    "domain": "Business/Agency Website",
+    "theme": "Light Theme",
+    "archetype": "Archetype 4 (Swiss & High-Contrast) - Bold Vibrant Variant",
+    "emotional_tone": "Confident, energetic, authoritative, cutting-edge"
+  },
+  "colors": {
+    "background": {
+      "primary": "#FFFFFF",
+      "secondary": "#F4F4F5",
+      "tertiary": "#E4E4E7"
+    },
+    "text": {
+      "primary": "#0A0A0A",
+      "secondary": "#52525B",
+      "inverse": "#FFFFFF"
+    },
+    "accents": {
+      "vibrant_blue": "#2563EB",
+      "acid_yellow": "#FACC15",
+      "bold_red": "#EF4444"
+    },
+    "borders": {
+      "light": "#E4E4E7",
+      "dark": "#18181B"
+    },
+    "rules": {
+      "contrast": "Always tint neutral greys slightly. Ensure APCA contrast ratio requirements are met. Do not use pure black (#000000), use #0A0A0A.",
+      "accents": "Limit the use of vibrant blue and yellow to CTAs, active states, and decorative geometric shapes to maintain the high-contrast 'Swiss' authority.",
+      "hover_states": "Must have higher contrast. e.g., hover:bg-blue-700 hover:text-white"
+    }
+  },
+  "typography": {
+    "fonts": {
+      "headings": "'Outfit', sans-serif",
+      "body": "'Plus Jakarta Sans', sans-serif"
+    },
+    "hierarchy": {
+      "h1": "text-5xl sm:text-6xl tracking-tighter font-black text-slate-950",
+      "h2": "text-4xl sm:text-5xl tracking-tight font-bold text-slate-900",
+      "h3": "text-2xl sm:text-3xl tracking-tight font-bold",
+      "h4": "text-xl sm:text-2xl font-semibold",
+      "body": "text-base leading-relaxed text-slate-600",
+      "labels": "text-xs tracking-[0.2em] uppercase font-bold text-slate-500"
+    },
+    "rules": {
+      "alignment": "Never center by default. Use left-alignment for dense content and paragraphs.",
+      "banned_fonts": "Inter, Roboto, Open Sans for headings.",
+      "line_height": "Tight (leading-none) for headers, loose (leading-relaxed) for body."
+    }
+  },
+  "spacing_and_layout": {
+    "philosophy": "Generous Spacing Philosophy - Use 2-3x more spacing than typical designs.",
+    "containers": "Containers with borders must have internal padding (p-6, p-8, p-12) to prevent text collision.",
+    "bento_grid": {
+      "type": "TETRIS Grid",
+      "classes": "grid grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-8 lg:gap-12",
+      "span_logic": "Hero content spans col-span-full md:col-span-8, supporting squares col-span-4. Ensure extreme asymmetry."
+    },
+    "sections": "Use py-20 to py-32 for vertical section spacing."
+  },
+  "components": {
+    "header": {
+      "style": "Glassmorphism (Crystal Variant). backdrop-blur-xl bg-white/70, 1px delicate border-b border-black/5.",
+      "rules": "Must remain fixed (z-50) at the top. Do not hide desktop links behind a hamburger menu."
+    },
+    "footer": {
+      "style": "Contrast Shift - Dark footer (bg-[#0A0A0A]) on a light website.",
+      "rules": "Massive typography (text-[8vw] or text-[10vw]) for the primary footer CTA (e.g., 'LET\\'S TALK'). Generous padding (py-32)."
+    },
+    "buttons": {
+      "primary": "bg-[#0A0A0A] text-white hover:bg-[#2563EB] hover:-translate-y-1 transition-all duration-300 rounded-none px-8 py-4 font-bold tracking-wide",
+      "secondary": "bg-transparent border-2 border-[#0A0A0A] text-[#0A0A0A] hover:bg-[#0A0A0A] hover:text-white transition-all duration-300 rounded-none px-8 py-4 font-bold"
+    },
+    "cards_and_services": {
+      "style": "Grid Borders (The Technical Look). Exposed skeletons.",
+      "rules": "border-collapse style. border-r border-b border-border/40. No heavy dropshadows, rely on 1px crisp borders."
+    },
+    "marquee": {
+      "style": "Kinetic Texture",
+      "rules": "Massive outline text (text-8xl+) running in the background, or an 'Editorial Ribbon' with subtle text for client logos."
+    }
+  },
+  "animation_and_interaction": {
+    "rules": "Use Framer Motion for scroll-triggered staggered reveals (y: 20, opacity: 0 -> y: 0, opacity: 1).",
+    "hover": "Scale images slightly (scale-105) inside overflow-hidden containers.",
+    "testing": "All interactive elements MUST include a data-testid attribute in kebab-case."
+  },
+  "media": {
+    "rules": "NEVER use placeholder text/URLs. Max image height 80vh on mobile. Use gradients for overlays, max bg-black/40.",
+    "image_urls": {
+      "hero_abstract": {
+        "url": "https://images.unsplash.com/photo-1776926092765-cd3b30c3b8f4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHZpYnJhbnQlMjBnZW9tZXRyaWMlMjBncmFkaWVudHxlbnwwfHx8fDE3NzgzMjczNDh8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Abstract pink/blue gradient light for Hero section visual tension."
+      },
+      "about_office": {
+        "url": "https://images.unsplash.com/photo-1641060272821-df59e2c0b5ed?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzc4MzI3MzI5fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Modern office glass hallway for the About page."
+      },
+      "about_team": {
+        "url": "https://images.unsplash.com/photo-1758873269317-51888e824b28?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDV8MHwxfHNlYXJjaHw0fHxkaXZlcnNlJTIwY3JlYXRpdmUlMjBidXNpbmVzcyUyMHRlYW18ZW58MHx8fHwxNzc4MzI3MzI5fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Diverse creative business team collaborating."
+      },
+      "project_1": {
+        "url": "https://images.pexels.com/photos/13219418/pexels-photo-13219418.jpeg",
+        "description": "Illuminated modern glass building exterior."
+      },
+      "project_2": {
+        "url": "https://images.unsplash.com/photo-1674981208693-de5a9c4c4f44?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBvZmZpY2UlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzc4MzI3MzI5fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Tall modern building against the sky."
+      },
+      "project_3": {
+        "url": "https://images.unsplash.com/photo-1750727548934-0e7fab8cb304?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHZpYnJhbnQlMjBnZW9tZXRyaWMlMjBncmFkaWVudHxlbnwwfHx8fDE3NzgzMjczNDh8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Vibrant honeycomb geometric pattern."
+      },
+      "general_placeholder": {
+        "url": "https://images.unsplash.com/photo-1758873268631-fa944fc5cad2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDV8MHwxfHNlYXJjaHwxfHxkaXZlcnNlJTIwY3JlYXRpdmUlMjBidXNpbmVzcyUyMHRlYW18ZW58MHx8fHwxNzc4MzI3MzI5fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Smiling people in modern office, suitable for services or testimonials."
+      }
+    }
+  },
+  "instructions_to_main_agent": {
+    "1": "You must implement pure HTML/Tailwind for layouts and sections. Use Shadcn components for logical elements like forms/inputs.",
+    "2": "Setup React Router for multi-page navigation (Home, About, Services, Projects, Contact, Project Details).",
+    "3": "Install 'lucide-react' for icons. Add 'framer-motion' for scroll reveal animations.",
+    "4": "Make sure to add SEO metadata to every page using React Helmet or custom hooks.",
+    "5": "Do not center-align the hero text. Push it to a grid column, use extreme typography sizes, and utilize the bento grid logic provided.",
+    "6": "Install required fonts 'Outfit' and 'Plus Jakarta Sans' from Google Fonts in index.css.",
+    "7": "Do NOT use default Shadcn Card borders globally; follow the 'Grid Borders' tech look for Services and Projects.",
+    "8": "Use Lenis for smooth scrolling if possible, to give the site a premium feel."
+  }
+}
