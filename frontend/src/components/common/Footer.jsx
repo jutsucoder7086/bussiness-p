@@ -44,7 +44,7 @@ export const Footer = () => {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <img 
-                src="/sitash-logo-white.jpg" 
+                src="/assets/sitash-logo-white.png" 
                 alt="Sitash" 
                 className="h-8 w-auto object-contain"
               />
