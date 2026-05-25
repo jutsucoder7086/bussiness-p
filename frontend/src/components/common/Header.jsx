@@ -36,7 +36,7 @@ export const Header = () => {
             className="flex items-center gap-3 hover:opacity-80 transition-opacity"
           >
             <img 
-              src="/assets/sitash-logo-black.png" 
+              src="/assets/sitash-logo-header.png" 
               alt="Sitash" 
               className="h-12 w-auto object-contain"
               style={{ height: '60%', maxHeight: '48px' }}
