@@ -46,7 +46,7 @@ export const Footer = () => {
               <img 
                 src="/assets/sitash-logo-white.png" 
                 alt="Sitash" 
-                className="h-8 w-auto object-contain"
+                className="h-10 w-auto object-contain"
               />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">

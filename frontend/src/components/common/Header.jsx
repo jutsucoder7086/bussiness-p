@@ -38,7 +38,8 @@ export const Header = () => {
             <img 
               src="/assets/sitash-logo-black.png" 
               alt="Sitash" 
-              className="h-10 w-auto object-contain"
+              className="h-12 w-auto object-contain"
+              style={{ height: '60%', maxHeight: '48px' }}
             />
           </Link>
 
