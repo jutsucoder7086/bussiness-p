@@ -21,21 +21,21 @@ export const Projects = () => {
     <div data-testid="projects-page">
       {/* Hero Section */}
       <Hero 
-        label="Our Portfolio"
-        title="Projects That Make An Impact"
-        description="Explore our portfolio of successful projects across industries. Each one tells a story of innovation, collaboration, and results."
-        primaryCTA={{ text: 'Start Your Project', link: '/contact' }}
-        secondaryCTA={{ text: 'Our Services', link: '/services' }}
-        imageUrl="https://images.unsplash.com/photo-1750727548934-0e7fab8cb304?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHZpYnJhbnQlMjBnZW9tZXRyaWMlMjBncmFkaWVudHxlbnwwfHx8fDE3NzgzMjczNDh8MA&ixlib=rb-4.1.0&q=85"
+        label="Our Products"
+        title="Interactive Solutions For Education"
+        description="Premium interactive flat panels and education cameras designed to create engaging, collaborative learning environments. Explore our complete range of products."
+        primaryCTA={{ text: 'Schedule Demo', link: '/contact' }}
+        secondaryCTA={{ text: 'View Solutions', link: '/services' }}
+        imageUrl="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200"
       />
 
       {/* Projects Grid */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <SectionTitle 
-            label="Featured Work"
-            title="Browse Our Projects"
-            description="Filter by category to see specific types of work."
+            label="Featured Products"
+            title="Browse Our Product Range"
+            description="Filter by category to explore interactive panels, cameras, and complete classroom solutions."
           />
 
           {/* Category Filter */}
@@ -68,9 +68,9 @@ export const Projects = () => {
 
       {/* CTA */}
       <CTA 
-        title="Have A Project In Mind?"
-        description="Let's bring your vision to life with our proven expertise and innovative approach."
-        buttonText="Let's Talk"
+        title="Need Help Choosing The Right Product?"
+        description="Our education technology experts are here to help you find the perfect solution for your institution."
+        buttonText="Contact Our Team"
         buttonLink="/contact"
         variant="dark"
       />

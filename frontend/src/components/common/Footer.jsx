@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
 import { SITE_NAME, SOCIAL_LINKS, CONTACT_EMAIL, CONTACT_PHONE } from '../../helpers/constants';
-import { Linkedin, Twitter, Instagram, Github, Mail, Phone, MapPin } from 'lucide-react';
+import { Linkedin, Twitter, Instagram, Facebook, Mail, Phone, MapPin } from 'lucide-react';
 
 const socialIcons = {
   linkedin: Linkedin,
   twitter: Twitter,
   instagram: Instagram,
-  github: Github
+  facebook: Facebook
 };
 
 export const Footer = () => {

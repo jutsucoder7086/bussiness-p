@@ -1,44 +1,44 @@
 export const servicesData = [
   {
-    id: 'strategy',
-    title: 'Strategic Consulting',
-    description: 'Transform your business vision into actionable roadmaps with data-driven insights and industry expertise.',
-    icon: 'Target',
-    features: ['Market Analysis', 'Growth Planning', 'Risk Management']
+    id: 'interactive-panels',
+    title: 'Interactive Flat Panels',
+    description: 'Transform your classroom with cutting-edge interactive displays. Multi-touch technology, 4K UHD resolution, and wireless collaboration for immersive learning experiences.',
+    icon: 'Monitor',
+    features: ['65" to 110" Screen Sizes', '20/40/50 Multi-Touch', 'Android & Windows Support', 'Google EDLA Certified']
   },
   {
-    id: 'digital',
-    title: 'Digital Solutions',
-    description: 'Build cutting-edge digital experiences that engage customers and drive measurable results.',
-    icon: 'Zap',
-    features: ['Web Development', 'Mobile Apps', 'Cloud Integration']
+    id: 'education-cameras',
+    title: 'Education Cameras',
+    description: 'Professional-grade cameras designed for educational environments. Perfect for lecture recording, video conferencing, and remote learning solutions.',
+    icon: 'Video',
+    features: ['4K Recording', 'Auto-Tracking', 'PTZ Control', 'Live Streaming']
   },
   {
-    id: 'branding',
-    title: 'Brand Identity',
-    description: 'Craft memorable brand experiences that resonate with your audience and stand out in the market.',
-    icon: 'Sparkles',
-    features: ['Visual Design', 'Brand Strategy', 'Content Creation']
+    id: 'smart-classroom',
+    title: 'Smart Classroom Setup',
+    description: 'Complete digital classroom solutions integrating interactive panels, cameras, and collaboration tools for modern education.',
+    icon: 'GraduationCap',
+    features: ['Full Installation', 'Teacher Training', 'Technical Support', 'Custom Configuration']
   },
   {
-    id: 'analytics',
-    title: 'Data Analytics',
-    description: 'Unlock the power of your data with advanced analytics and intelligent automation solutions.',
-    icon: 'BarChart3',
-    features: ['Business Intelligence', 'Predictive Analytics', 'Automation']
+    id: 'collaboration-tools',
+    title: 'Collaboration Software',
+    description: 'Advanced annotation tools, screen sharing, and e-whiteboard software to enhance interactive learning and engagement.',
+    icon: 'Users',
+    features: ['Digital Whiteboard', 'Screen Sharing', 'Remote Collaboration', 'Educational Apps']
   },
   {
-    id: 'marketing',
-    title: 'Growth Marketing',
-    description: 'Accelerate your growth with performance-driven marketing strategies and optimization.',
-    icon: 'TrendingUp',
-    features: ['SEO & SEM', 'Social Media', 'Conversion Optimization']
+    id: 'video-conferencing',
+    title: 'Video Conferencing Solutions',
+    description: 'Enterprise-grade video conferencing systems for hybrid learning, remote teaching, and virtual classrooms.',
+    icon: 'Presentation',
+    features: ['HD Video Quality', 'Wireless Casting', 'Multi-Device Support', 'Cloud Recording']
   },
   {
-    id: 'support',
-    title: 'Ongoing Support',
-    description: 'Ensure continuous success with dedicated support, maintenance, and strategic guidance.',
+    id: 'support-maintenance',
+    title: 'Support & Maintenance',
+    description: 'Comprehensive after-sales support, warranty services, and regular maintenance to keep your equipment running smoothly.',
     icon: 'Headphones',
-    features: ['24/7 Monitoring', 'Technical Support', 'Strategic Consulting']
+    features: ['On-Site Support', 'Remote Assistance', 'Annual Maintenance', 'Software Updates']
   }
 ];

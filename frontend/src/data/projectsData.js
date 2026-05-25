@@ -1,104 +1,110 @@
 export const projectsData = [
   {
-    id: 'fintech-platform',
-    title: 'FinTech Revolution',
-    category: 'Digital Product',
-    description: 'A comprehensive financial management platform that transformed how businesses handle their operations.',
-    longDescription: 'We partnered with a leading financial services company to build a next-generation platform that combines powerful analytics, seamless integrations, and an intuitive user experience. The platform processes over $100M in transactions monthly and serves thousands of active users.',
-    image: 'https://images.pexels.com/photos/13219418/pexels-photo-13219418.jpeg',
+    id: 'ifp-65-standard',
+    title: 'Interactive Panel 65"',
+    category: 'Interactive Flat Panels',
+    description: 'Standard 65-inch interactive flat panel with UHD resolution, perfect for small to medium classrooms.',
+    longDescription: 'The 65-inch Interactive Flat Panel delivers exceptional clarity with 4K UHD resolution and supports 20/40 multi-touch technology. Powered by both Android and Windows, it provides flexibility for various educational applications. Features include OPS compliance, 450 cd/m² brightness, and wireless collaboration capabilities for modern classrooms.',
+    image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800',
     year: '2024',
-    client: 'TechCorp Financial',
-    services: ['Strategy', 'Development', 'Design'],
+    client: 'Education Series',
+    services: ['Interactive Display', 'Multi-Touch', 'Wireless Collaboration'],
     results: [
-      '300% increase in user engagement',
-      '50% reduction in processing time',
-      '95% customer satisfaction rate'
+      '4K UHD Resolution (3840×2160)',
+      '20/40 Multi-Touch Technology',
+      'Brightness: 450 cd/m²',
+      'Android & Windows Support'
     ],
-    technologies: ['React', 'Node.js', 'AWS', 'MongoDB']
+    technologies: ['Android OS', 'Windows Compatible', 'OPS Standard', 'HDMI/USB-C']
   },
   {
-    id: 'ecommerce-redesign',
-    title: 'E-Commerce Reimagined',
-    category: 'Brand & Digital',
-    description: 'Complete brand and platform overhaul for a major retail company entering the digital space.',
-    longDescription: 'This project involved a complete transformation of both brand identity and digital presence. We created a cohesive visual language, rebuilt the e-commerce platform from the ground up, and implemented a sophisticated marketing automation system.',
-    image: 'https://images.unsplash.com/photo-1674981208693-de5a9c4c4f44?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBvZmZpY2UlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzc4MzI3MzI5fDA&ixlib=rb-4.1.0&q=85',
-    year: '2023',
-    client: 'StyleHub Retail',
-    services: ['Branding', 'Web Development', 'Marketing'],
-    results: [
-      '200% increase in online sales',
-      '60% improvement in conversion rate',
-      'Award-winning design recognition'
-    ],
-    technologies: ['Shopify', 'React', 'GraphQL', 'Figma']
-  },
-  {
-    id: 'healthcare-app',
-    title: 'HealthTech Innovation',
-    category: 'Mobile Experience',
-    description: 'Mobile-first healthcare platform connecting patients with providers seamlessly.',
-    longDescription: 'Developed a HIPAA-compliant mobile application that streamlines patient care coordination. The app features real-time appointment scheduling, secure messaging, prescription management, and integrated telemedicine capabilities.',
-    image: 'https://images.unsplash.com/photo-1750727548934-0e7fab8cb304?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHZpYnJhbnQlMjBnZW9tZXRyaWMlMjBncmFkaWVudHxlbnwwfHx8fDE3NzgzMjczNDh8MA&ixlib=rb-4.1.0&q=85',
+    id: 'ifp-65-edla',
+    title: 'Interactive Panel 65" EDLA',
+    category: 'Interactive Flat Panels',
+    description: 'Google EDLA certified 65-inch panel with AI features, gesture controls, and advanced annotation tools.',
+    longDescription: 'Premium 65-inch panel featuring Android 14 with Google EDLA certification. Includes artificial intelligence capabilities, gesture controls, security locks, and fully functional Type-C ports. Advanced features include speech-to-text, quick start interface, QR code sharing, embedded annotation software, and lecture recording with broadcasting capabilities.',
+    image: 'https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=800',
     year: '2024',
-    client: 'MediConnect',
-    services: ['Mobile Development', 'UX Design', 'Security'],
+    client: 'Premium Education Series',
+    services: ['Google Certified', 'AI Features', 'Advanced Tools'],
     results: [
-      '50K+ active users in 6 months',
-      '4.8/5 app store rating',
-      '40% reduction in no-shows'
+      'Google EDLA Certified',
+      'Android 14 Operating System',
+      'AI & Gesture Controls',
+      'Lecture Recording & Broadcasting'
     ],
-    technologies: ['React Native', 'Firebase', 'Node.js', 'Socket.io']
+    technologies: ['Android 14', 'Google EDLA', 'AI Integration', 'Type-C Ports']
   },
   {
-    id: 'enterprise-dashboard',
-    title: 'Enterprise Analytics Suite',
-    category: 'Data & Analytics',
-    description: 'Powerful analytics dashboard helping enterprises make data-driven decisions.',
-    longDescription: 'Built a comprehensive analytics platform that aggregates data from multiple sources, provides real-time insights, and enables predictive analytics. The system processes millions of data points daily and delivers actionable intelligence.',
-    image: 'https://images.unsplash.com/photo-1641060272821-df59e2c0b5ed?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzc4MzI3MzI5fDA&ixlib=rb-4.1.0&q=85',
-    year: '2023',
-    client: 'DataDrive Corp',
-    services: ['Development', 'Data Engineering', 'Design'],
-    results: [
-      '75% faster decision-making',
-      '$2M+ in identified savings',
-      '100% adoption rate'
-    ],
-    technologies: ['React', 'D3.js', 'Python', 'PostgreSQL']
-  },
-  {
-    id: 'saas-platform',
-    title: 'SaaS Platform Launch',
-    category: 'Product Development',
-    description: 'End-to-end product development for a revolutionary SaaS platform.',
-    longDescription: 'From concept to launch, we built a scalable SaaS platform that serves thousands of businesses. The platform includes sophisticated user management, billing systems, API integrations, and a powerful admin dashboard.',
-    image: 'https://images.unsplash.com/photo-1758873268631-fa944fc5cad2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDV8MHwxfHNlYXJjaHwxfHxkaXZlcnNlJTIwY3JlYXRpdmUlMjBidXNpbmVzcyUyMHRlYW18ZW58MHx8fHwxNzc4MzI3MzI5fDA&ixlib=rb-4.1.0&q=85',
+    id: 'ifp-75-standard',
+    title: 'Interactive Panel 75"',
+    category: 'Interactive Flat Panels',
+    description: '75-inch large format display ideal for bigger classrooms and lecture halls.',
+    longDescription: 'Large 75-inch display providing expansive viewing area for medium to large classrooms. Features 4K UHD resolution, OPS compliance, and 20/40 multi-touch technology. Perfect for collaborative learning environments with wireless screen sharing and video conferencing capabilities.',
+    image: 'https://images.unsplash.com/photo-1593359863503-f598dbc00c18?w=800',
     year: '2024',
-    client: 'CloudSync',
-    services: ['Full Stack', 'DevOps', 'Strategy'],
+    client: 'Education Series',
+    services: ['Large Format Display', 'Multi-Touch', 'Collaboration'],
     results: [
-      '1000+ paying customers',
-      '$500K ARR in year one',
-      '99.9% uptime'
+      '75-inch Large Display',
+      '4K UHD Resolution',
+      'Wireless Collaboration',
+      'Video Conferencing Ready'
     ],
-    technologies: ['Vue.js', 'Laravel', 'Redis', 'Kubernetes']
+    technologies: ['Android OS', 'Windows Compatible', 'OPS Standard', 'Wireless Cast']
   },
   {
-    id: 'ngo-website',
-    title: 'Social Impact Platform',
-    category: 'Non-Profit',
-    description: 'Digital platform amplifying the mission of a global non-profit organization.',
-    longDescription: 'Created a compelling digital experience that tells the organization\'s story, facilitates donations, and engages volunteers. The platform includes a custom CMS, event management system, and impact tracking dashboard.',
-    image: 'https://images.unsplash.com/photo-1776926092765-cd3b30c3b8f4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHZpYnJhbnQlMjBnZW9tZXRyaWMlMjBncmFkaWVudHxlbnwwfHx8fDE3NzgzMjczNDh8MA&ixlib=rb-4.1.0&q=85',
-    year: '2023',
-    client: 'Global Hope Initiative',
-    services: ['Web Development', 'Branding', 'Content'],
+    id: 'ifp-86-edla',
+    title: 'Interactive Panel 86" EDLA',
+    category: 'Interactive Flat Panels',
+    description: 'Extra-large 86-inch Google certified panel with premium features for large lecture halls.',
+    longDescription: 'Premium 86-inch interactive panel with Google EDLA certification and Android 14. Features include artificial intelligence, gesture controls, 4K UHD resolution, Type-C connectivity, speech-to-text, and advanced whiteboard features. Ideal for universities and large training centers.',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800',
+    year: '2024',
+    client: 'Premium Education Series',
+    services: ['Extra Large Display', 'Google Certified', 'Advanced AI'],
     results: [
-      '400% increase in donations',
-      '5000+ new volunteers',
-      'International recognition'
+      '86-inch Extra Large Screen',
+      'Google EDLA Certified',
+      'Advanced Whiteboard Features',
+      'Wireless Tablet Collaboration'
     ],
-    technologies: ['WordPress', 'React', 'Stripe', 'Mailchimp']
+    technologies: ['Android 14', 'Google EDLA', 'AI Features', 'Multi-Device Cast']
+  },
+  {
+    id: 'education-camera-4k',
+    title: '4K Education Camera',
+    category: 'Education Cameras',
+    description: 'Professional 4K camera system with auto-tracking for lecture recording and live streaming.',
+    longDescription: 'Advanced 4K camera designed specifically for educational environments. Features auto-tracking technology that follows the instructor, PTZ (Pan-Tilt-Zoom) controls, and seamless integration with interactive panels. Perfect for hybrid learning, lecture capture, and distance education programs.',
+    image: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800',
+    year: '2024',
+    client: 'Camera Solutions',
+    services: ['4K Recording', 'Auto-Tracking', 'Live Streaming'],
+    results: [
+      '4K Ultra HD Recording',
+      'AI-Powered Auto-Tracking',
+      'PTZ Remote Control',
+      'Live Streaming Ready'
+    ],
+    technologies: ['4K Sensor', 'AI Tracking', 'RTSP/RTMP', 'USB 3.0']
+  },
+  {
+    id: 'smart-classroom-package',
+    title: 'Complete Smart Classroom',
+    category: 'Smart Classroom Solutions',
+    description: 'All-in-one package: Interactive panel, camera system, and collaboration software.',
+    longDescription: 'Turnkey smart classroom solution combining our premium 75-inch interactive panel, 4K education camera, wireless collaboration tools, and comprehensive training. Includes installation, configuration, and ongoing support for seamless digital learning transformation.',
+    image: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800',
+    year: '2024',
+    client: 'Complete Solutions',
+    services: ['Full Installation', 'Training', 'Support'],
+    results: [
+      '50+ Classrooms Deployed',
+      '95% Teacher Satisfaction',
+      'Enhanced Student Engagement',
+      'Seamless Hybrid Learning'
+    ],
+    technologies: ['Interactive Panel', '4K Camera', 'Collaboration Software', 'Cloud Integration']
   }
 ];

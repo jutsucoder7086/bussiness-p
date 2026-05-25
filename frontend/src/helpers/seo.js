@@ -35,27 +35,27 @@ export const generatePageTitle = (pageName) => {
 export const SEO_DEFAULTS = {
   home: {
     title: 'Home',
-    description: 'Transform your business with cutting-edge digital solutions, strategic consulting, and award-winning design.',
-    keywords: 'digital solutions, business consulting, web development, brand design'
+    description: 'Transform education with premium interactive flat panels and cameras. Sitash offers cutting-edge technology solutions for modern classrooms.',
+    keywords: 'interactive flat panel, education camera, smart classroom, digital education, teaching technology'
   },
   about: {
     title: 'About Us',
-    description: 'Learn about our mission, values, and the team behind Innovate Solutions. We are passionate about driving innovation.',
-    keywords: 'about us, company profile, team, mission, values'
+    description: 'Learn about Sitash - your trusted partner for education technology solutions, interactive displays, and classroom innovation.',
+    keywords: 'about sitash, education technology company, interactive panel supplier'
   },
   services: {
-    title: 'Our Services',
-    description: 'Explore our comprehensive range of services including strategy, development, design, analytics, and marketing.',
-    keywords: 'services, consulting, development, design, analytics, marketing'
+    title: 'Our Solutions',
+    description: 'Complete education technology solutions including interactive panels, cameras, smart classroom setup, and collaboration tools.',
+    keywords: 'education solutions, interactive panels, classroom cameras, smart classroom, collaboration software'
   },
   projects: {
-    title: 'Our Projects',
-    description: 'Discover our portfolio of successful projects across industries. See how we deliver measurable results.',
-    keywords: 'portfolio, projects, case studies, work, results'
+    title: 'Our Products',
+    description: 'Explore our range of interactive flat panels (65\" to 110\"), education cameras, and complete smart classroom packages.',
+    keywords: 'interactive panel, education camera, smart classroom, Google EDLA, 4K UHD display'
   },
   contact: {
     title: 'Contact Us',
-    description: 'Get in touch with our team to discuss your project. Let\'s build something amazing together.',
-    keywords: 'contact, get in touch, reach out, inquiry'
+    description: 'Get in touch with Sitash for a free demo of our interactive panels and education cameras. Transform your classroom today.',
+    keywords: 'contact sitash, schedule demo, education technology, interactive panel inquiry'
   }
 };

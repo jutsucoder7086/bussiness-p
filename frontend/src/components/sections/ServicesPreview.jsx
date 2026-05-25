@@ -1,12 +1,18 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Target, Zap, Sparkles, BarChart3 } from 'lucide-react';
+import { ArrowRight, Target, Zap, Sparkles, BarChart3, Monitor, Video, GraduationCap, Users, Presentation, Headphones } from 'lucide-react';
 
 const iconMap = {
   Target,
   Zap,
   Sparkles,
-  BarChart3
+  BarChart3,
+  Monitor,
+  Video,
+  GraduationCap,
+  Users,
+  Presentation,
+  Headphones
 };
 
 export const ServicesPreview = ({ services, showAll = false }) => {

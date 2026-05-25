@@ -15,22 +15,22 @@ export const Home = () => {
   useSEO(SEO_DEFAULTS.home.title, SEO_DEFAULTS.home.description, SEO_DEFAULTS.home.keywords);
 
   const stats = [
-    { number: '500+', label: 'Projects Completed' },
-    { number: '98%', label: 'Client Satisfaction' },
-    { number: '50+', label: 'Team Members' },
-    { number: '15+', label: 'Years Experience' }
+    { number: '500+', label: 'Classrooms Equipped' },
+    { number: '98%', label: 'Teacher Satisfaction' },
+    { number: '50+', label: 'Educational Institutions' },
+    { number: '10+', label: 'Years Experience' }
   ];
 
   return (
     <div data-testid="home-page">
       {/* Hero Section */}
       <Hero 
-        label="Welcome to Innovation"
-        title="Transforming Ideas Into Impact"
-        description="We partner with forward-thinking businesses to create digital solutions that drive growth, inspire customers, and deliver measurable results."
-        primaryCTA={{ text: 'Start Your Project', link: '/contact' }}
-        secondaryCTA={{ text: 'View Our Work', link: '/projects' }}
-        imageUrl="https://images.unsplash.com/photo-1776926092765-cd3b30c3b8f4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHZpYnJhbnQlMjBnZW9tZXRyaWMlMjBncmFkaWVudHxlbnwwfHx8fDE3NzgzMjczNDh8MA&ixlib=rb-4.1.0&q=85"
+        label="Education Technology Solutions"
+        title="Transforming Education Through Innovation"
+        description="Premium interactive flat panels and education cameras designed to revolutionize learning. Bring your classroom to life with cutting-edge technology."
+        primaryCTA={{ text: 'Explore Products', link: '/projects' }}
+        secondaryCTA={{ text: 'Schedule Demo', link: '/contact' }}
+        imageUrl="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200"
       />
 
       {/* Stats Section */}
@@ -64,9 +64,9 @@ export const Home = () => {
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <SectionTitle 
-            label="What We Do"
-            title="Services That Drive Results"
-            description="From strategy to execution, we provide comprehensive solutions tailored to your business needs."
+            label="Our Solutions"
+            title="Complete Education Technology Ecosystem"
+            description="From interactive flat panels to professional cameras, we provide everything you need for modern, engaging classrooms."
           />
           <ServicesPreview services={servicesData} />
         </div>
@@ -76,9 +76,9 @@ export const Home = () => {
       <section className="py-24 bg-[#F4F4F5]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <SectionTitle 
-            label="Our Work"
-            title="Featured Projects"
-            description="Explore some of our recent work and see how we've helped businesses achieve their goals."
+            label="Our Products"
+            title="Premium Interactive Solutions"
+            description="Explore our range of interactive flat panels and education cameras designed for excellence."
           />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
             {projectsData.slice(0, 3).map((project, index) => (
@@ -101,17 +101,17 @@ export const Home = () => {
               <SectionTitle 
                 label="Why Choose Us"
                 title="Built on Excellence"
-                description="We combine strategic thinking, creative excellence, and technical expertise to deliver solutions that exceed expectations."
+                description="We combine cutting-edge technology, industry expertise, and dedicated support to deliver exceptional education solutions."
               />
               
               <ul className="space-y-4">
                 {[
-                  'Data-driven approach to every decision',
-                  'Agile methodology for faster delivery',
-                  'Dedicated team of industry experts',
-                  'End-to-end project management',
-                  'Ongoing support and optimization',
-                  'Transparent communication'
+                  'Premium quality interactive displays',
+                  'Google EDLA certified products',
+                  'Professional installation & training',
+                  'Comprehensive warranty coverage',
+                  '24/7 technical support',
+                  'Custom classroom solutions'
                 ].map((item, index) => (
                   <motion.li
                     key={index}
@@ -136,7 +136,7 @@ export const Home = () => {
               transition={{ duration: 0.6 }}
             >
               <img 
-                src="https://images.unsplash.com/photo-1641060272821-df59e2c0b5ed?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzc4MzI3MzI5fDA&ixlib=rb-4.1.0&q=85"
+                src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=800"
                 alt="Why choose us"
                 className="w-full h-[600px] object-cover"
               />
@@ -151,9 +151,9 @@ export const Home = () => {
 
       {/* CTA */}
       <CTA 
-        title="Ready to Transform Your Business?"
-        description="Let's discuss how we can help you achieve your goals and drive measurable results."
-        buttonText="Start Your Project"
+        title="Ready to Transform Your Classroom?"
+        description="Schedule a free demo and discover how our interactive solutions can enhance learning experiences."
+        buttonText="Schedule Free Demo"
         buttonLink="/contact"
         variant="dark"
       />
