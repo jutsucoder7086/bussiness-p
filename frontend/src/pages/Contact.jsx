@@ -87,10 +87,10 @@ export const Contact = () => {
                       Email Us
                     </h3>
                     <a 
-                      href="mailto:hello@innovatesolutions.com"
+                      href="mailto:hello@sitash.com"
                       className="text-[#52525B] hover:text-[#2563EB] transition-colors"
                     >
-                      hello@innovatesolutions.com
+                      hello@sitash.com
                     </a>
                   </div>
                 </div>

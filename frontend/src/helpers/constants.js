@@ -1,6 +1,6 @@
-export const SITE_NAME = 'Innovate Solutions';
+export const SITE_NAME = 'Sitash';
 export const SITE_TAGLINE = 'Transforming Ideas Into Impact';
-export const CONTACT_EMAIL = 'hello@innovatesolutions.com';
+export const CONTACT_EMAIL = 'hello@sitash.com';
 export const CONTACT_PHONE = '+1 (555) 123-4567';
 export const COMPANY_ADDRESS = '123 Innovation Street, Tech City, TC 12345';
 

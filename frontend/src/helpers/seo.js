@@ -2,15 +2,15 @@ import { useEffect } from 'react';
 
 export const useSEO = (title, description, keywords) => {
   useEffect(() => {
-    document.title = title ? `${title} | Innovate Solutions` : 'Innovate Solutions | Transforming Ideas Into Impact';
+    document.title = title ? `${title} | Sitash` : 'Sitash | Transforming Ideas Into Impact';
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', description || 'Innovate Solutions delivers cutting-edge digital solutions, strategic consulting, and transformative brand experiences.');
+      metaDescription.setAttribute('content', description || 'Sitash delivers cutting-edge digital solutions, strategic consulting, and transformative brand experiences.');
     } else {
       const meta = document.createElement('meta');
       meta.name = 'description';
-      meta.content = description || 'Innovate Solutions delivers cutting-edge digital solutions, strategic consulting, and transformative brand experiences.';
+      meta.content = description || 'Sitash delivers cutting-edge digital solutions, strategic consulting, and transformative brand experiences.';
       document.head.appendChild(meta);
     }
     
@@ -29,7 +29,7 @@ export const useSEO = (title, description, keywords) => {
 };
 
 export const generatePageTitle = (pageName) => {
-  return `${pageName} | Innovate Solutions`;
+  return `${pageName} | Sitash`;
 };
 
 export const SEO_DEFAULTS = {

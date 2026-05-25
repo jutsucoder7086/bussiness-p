@@ -42,12 +42,13 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Company Info */}
           <div>
-            <h3 
-              className="text-2xl font-black tracking-tighter mb-4"
-              style={{ fontFamily: 'Outfit, sans-serif' }}
-            >
-              {SITE_NAME}
-            </h3>
+            <div className="flex items-center gap-3 mb-4">
+              <img 
+                src="/sitash-logo-white.jpg" 
+                alt="Sitash" 
+                className="h-8 w-auto object-contain"
+              />
+            </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Transforming ideas into impact through innovative digital solutions and strategic consulting.
             </p>
@@ -132,7 +133,7 @@ export const Footer = () => {
         {/* Copyright */}
         <div className="mt-16 pt-8 border-t border-white/10">
           <p className="text-center text-gray-500 text-sm">
-            © {new Date().getFullYear()} {SITE_NAME}. All rights reserved.
+            © {new Date().getFullYear()} Sitash. All rights reserved.
           </p>
         </div>
       </div>

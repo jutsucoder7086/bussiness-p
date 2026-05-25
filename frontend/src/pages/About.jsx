@@ -65,7 +65,7 @@ export const About = () => {
               <SectionTitle 
                 label="Our Story"
                 title="15 Years of Innovation"
-                description="Founded in 2009, we started with a simple mission: help businesses leverage technology to achieve their goals. Today, we're a full-service digital agency trusted by companies worldwide."
+                description="Founded in 2009, we started with a simple mission: help businesses leverage technology to achieve their goals. Today, Sitash is a full-service digital agency trusted by companies worldwide."
               />
               
               <div className="space-y-6 text-[#52525B] leading-relaxed">
@@ -190,7 +190,7 @@ export const About = () => {
       {/* CTA */}
       <CTA 
         title="Let's Build Something Great Together"
-        description="Join the hundreds of businesses that trust us to bring their vision to life."
+        description="Join the hundreds of businesses that trust Sitash to bring their vision to life."
         buttonText="Start Your Project"
         buttonLink="/contact"
         variant="dark"

@@ -33,10 +33,13 @@ export const Header = () => {
           <Link 
             to="/" 
             data-testid="logo-link"
-            className="text-2xl font-black tracking-tighter text-[#0A0A0A] hover:text-[#2563EB] transition-colors"
-            style={{ fontFamily: 'Outfit, sans-serif' }}
+            className="flex items-center gap-3 hover:opacity-80 transition-opacity"
           >
-            {SITE_NAME}
+            <img 
+              src="/sitash-logo-black.jpg" 
+              alt="Sitash" 
+              className="h-10 w-auto object-contain"
+            />
           </Link>
 
           {/* Desktop Navigation */}

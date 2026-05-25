@@ -61,7 +61,7 @@ def send_email_background(recipient_email: str, name: str, company: str, message
     smtp_user = os.environ.get('SMTP_USER')
     smtp_password = os.environ.get('SMTP_PASSWORD')
     from_email = os.environ.get('SMTP_FROM_EMAIL', smtp_user)
-    from_name = os.environ.get('SMTP_FROM_NAME', 'Business Website')
+    from_name = os.environ.get('SMTP_FROM_NAME', 'Sitash')
     
     try:
         with smtplib.SMTP(smtp_host, smtp_port) as server:
