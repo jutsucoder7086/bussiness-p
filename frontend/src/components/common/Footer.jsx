@@ -17,7 +17,7 @@ export const Footer = () => {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <h2 
             data-testid="footer-cta-heading"
-            className="text-[3vw] sm:text-[2.5vw] lg:text-[2vw] font-black leading-none tracking-tighter mb-8"
+            className="text-[6vw] sm:text-[5vw] lg:text-[4vw] font-black leading-none tracking-tighter mb-8"
             style={{ fontFamily: 'Outfit, sans-serif' }}
           >
             LET'S BUILD
@@ -29,7 +29,7 @@ export const Footer = () => {
           <Link
             to="/contact"
             data-testid="footer-cta-button"
-            className="inline-block bg-white text-[#0A0A0A] hover:bg-[#2563EB] hover:text-white hover:-translate-y-1 transition-all duration-300 px-12 py-5 font-bold tracking-wide text-lg"
+            className="inline-block bg-white text-[#0A0A0A] hover:bg-[#2563EB] hover:text-white hover:-translate-y-1 transition-all duration-300 px-8 py-3 font-bold tracking-wide text-sm"
             style={{ fontFamily: 'Outfit, sans-serif' }}
           >
             START YOUR PROJECT
