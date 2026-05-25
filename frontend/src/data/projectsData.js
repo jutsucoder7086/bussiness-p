@@ -1,21 +1,54 @@
 export const projectsData = [
   {
-    id: 'ifp-65-standard',
-    title: 'Interactive Panel 65"',
+    id: 'ifp-75-sitash',
+    title: 'Sitash Interactive Flat Panel 75"',
     category: 'Interactive Flat Panels',
-    description: 'Standard 65-inch interactive flat panel with UHD resolution, perfect for small to medium classrooms.',
-    longDescription: 'The 65-inch Interactive Flat Panel delivers exceptional clarity with 4K UHD resolution and supports 20/40 multi-touch technology. Powered by both Android and Windows, it provides flexibility for various educational applications. Features include OPS compliance, 450 cd/m² brightness, and wireless collaboration capabilities for modern classrooms.',
-    image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800',
-    year: '2024',
-    client: 'Education Series',
-    services: ['Interactive Display', 'Multi-Touch', 'Wireless Collaboration'],
-    results: [
-      '4K UHD Resolution (3840×2160)',
-      '20/40 Multi-Touch Technology',
-      'Brightness: 450 cd/m²',
-      'Android & Windows Support'
+    description: 'Professional 75-inch interactive flat panel with 4K UHD resolution, multi-touch technology, and mobile stand. Perfect for collaborative learning.',
+    longDescription: 'The Sitash 75-inch Interactive Flat Panel transforms traditional classrooms into dynamic, collaborative learning environments. Featuring stunning 4K UHD resolution, responsive multi-touch technology, and an intuitive interface, this panel enables teachers and students to interact naturally with educational content. The included mobile stand with wheels provides flexibility to move the panel between rooms. Built-in pen tray keeps markers organized, while the robust mounting system ensures stability during use.',
+    image: '/products/panel-sitash-full.jpg',
+    images: [
+      '/products/panel-sitash-full.jpg',
+      '/products/panel-sitash-collage.jpg',
+      '/products/panel-sitash-branding.jpg'
     ],
-    technologies: ['Android OS', 'Windows Compatible', 'OPS Standard', 'HDMI/USB-C']
+    year: '2024',
+    client: 'Sitash Education Series',
+    services: ['Interactive Display', 'Multi-Touch', 'Mobile Stand'],
+    results: [
+      '75-inch Large Display Area',
+      '4K UHD Resolution (3840×2160)',
+      '20/40 Point Multi-Touch',
+      'Mobile Stand with Locking Wheels',
+      'Integrated Pen Tray',
+      'Android & Windows Compatible',
+      'OPS Slot for PC Module',
+      'Anti-Glare Tempered Glass'
+    ],
+    technologies: ['Android OS', 'Windows Compatible', 'HDMI/USB-C', 'OPS Standard'],
+    specifications: {
+      screenSize: '75 inches (190.5 cm diagonal)',
+      resolution: '4K UHD (3840×2160)',
+      aspectRatio: '16:9',
+      brightness: '450 cd/m²',
+      contrast: '4000:1',
+      viewingAngle: '178° (H) / 178° (V)',
+      responseTime: '8ms',
+      touchTechnology: 'Infrared 20/40 Point Multi-Touch',
+      displayType: 'LED Backlit LCD',
+      glassType: 'Anti-Glare Tempered Glass',
+      os: 'Android 11 / Windows Compatible',
+      ram: '4GB DDR4',
+      storage: '32GB',
+      connectivity: 'HDMI×3, VGA, USB×4, Type-C, LAN, WiFi',
+      audio: 'Built-in 2×15W Stereo Speakers',
+      opsSlot: 'Standard 80-pin OPS Slot',
+      mounting: 'VESA 600×400mm',
+      stand: 'Heavy-Duty Mobile Stand with Wheels',
+      penTray: 'Integrated Aluminum Pen Tray',
+      power: 'AC 100-240V, 50/60Hz',
+      dimensions: '1695×1014×90mm (W×H×D)',
+      weight: 'Approx. 42kg (panel only)'
+    }
   },
   {
     id: 'ifp-65-edla',
