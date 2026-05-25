@@ -17,7 +17,7 @@ export const Footer = () => {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <h2 
             data-testid="footer-cta-heading"
-            className="text-[12vw] sm:text-[10vw] lg:text-[8vw] font-black leading-none tracking-tighter mb-8"
+            className="text-[3vw] sm:text-[2.5vw] lg:text-[2vw] font-black leading-none tracking-tighter mb-8"
             style={{ fontFamily: 'Outfit, sans-serif' }}
           >
             LET'S BUILD
