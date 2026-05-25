@@ -13,7 +13,7 @@ export const Footer = () => {
   return (
     <footer data-testid="main-footer" className="bg-[#0A0A0A] text-white">
       {/* Massive CTA Section */}
-      <div className="border-b border-white/10 py-20 lg:py-32">
+      <div className="border-b border-white/10 py-7 lg:py-11">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <h2 
             data-testid="footer-cta-heading"
