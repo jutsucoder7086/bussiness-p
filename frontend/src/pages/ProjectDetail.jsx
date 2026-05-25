@@ -4,10 +4,12 @@ import { CTA } from '../components/sections/CTA';
 import { useSEO } from '../helpers/seo';
 import { motion } from 'framer-motion';
 import { ArrowLeft, CheckCircle2, ExternalLink } from 'lucide-react';
+import { useState } from 'react';
 
 export const ProjectDetail = () => {
   const { id } = useParams();
   const project = projectsData.find(p => p.id === id);
+  const [selectedImage, setSelectedImage] = useState(0);
 
   useSEO(
     project?.title || 'Project',
@@ -18,6 +20,8 @@ export const ProjectDetail = () => {
   if (!project) {
     return <Navigate to="/projects" replace />;
   }
+
+  const images = project.images || [project.image];
 
   return (
     <div data-testid="project-detail-page">
@@ -118,6 +122,70 @@ export const ProjectDetail = () => {
                         >
                           {tech}
                         </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Image Gallery for products with multiple images */}
+                {images.length > 1 && (
+                  <div className="mt-12">
+                    <h3 
+                      className="text-2xl font-bold text-[#0A0A0A] mb-6"
+                      style={{ fontFamily: 'Outfit, sans-serif' }}
+                    >
+                      Product Gallery
+                    </h3>
+                    {/* Main Image */}
+                    <div className="mb-4 bg-[#F4F4F5] aspect-square flex items-center justify-center overflow-hidden">
+                      <img 
+                        src={images[selectedImage]}
+                        alt={`${project.title} - View ${selectedImage + 1}`}
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    {/* Thumbnail Grid */}
+                    <div className="grid grid-cols-4 gap-3">
+                      {images.map((img, index) => (
+                        <button
+                          key={index}
+                          onClick={() => setSelectedImage(index)}
+                          className={`aspect-square bg-[#F4F4F5] overflow-hidden border-2 transition-all ${
+                            selectedImage === index 
+                              ? 'border-[#2563EB]' 
+                              : 'border-transparent hover:border-[#52525B]'
+                          }`}
+                        >
+                          <img 
+                            src={img}
+                            alt={`Thumbnail ${index + 1}`}
+                            className="w-full h-full object-contain"
+                          />
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Technical Specifications */}
+                {project.specifications && (
+                  <div className="mt-12">
+                    <h3 
+                      className="text-2xl font-bold text-[#0A0A0A] mb-6"
+                      style={{ fontFamily: 'Outfit, sans-serif' }}
+                    >
+                      Technical Specifications
+                    </h3>
+                    <div className="bg-[#F4F4F5] p-6 space-y-4">
+                      {Object.entries(project.specifications).map(([key, value]) => (
+                        <div key={key} className="border-b border-black/10 pb-3 last:border-0">
+                          <p className="text-xs tracking-wider uppercase text-[#52525B] mb-1">
+                            {key.replace(/([A-Z])/g, ' $1').trim()}
+                          </p>
+                          <p className="text-[#0A0A0A] font-semibold text-sm">
+                            {value}
+                          </p>
+                        </div>
                       ))}
                     </div>
                   </div>

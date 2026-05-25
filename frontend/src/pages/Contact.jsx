@@ -4,11 +4,7 @@ import { SectionTitle } from '../components/common/SectionTitle';
 import { useSEO, SEO_DEFAULTS } from '../helpers/seo';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
-import axios from 'axios';
 import { toast } from 'sonner';
-
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
-const API = `${BACKEND_URL}/api`;
 
 export const Contact = () => {
   useSEO(SEO_DEFAULTS.contact.title, SEO_DEFAULTS.contact.description, SEO_DEFAULTS.contact.keywords);
@@ -33,19 +29,20 @@ export const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    try {
-      const response = await axios.post(`${API}/contact`, formData);
-      
-      if (response.data.status === 'success') {
-        toast.success(response.data.message);
-        setFormData({ name: '', email: '', company: '', message: '' });
-      }
-    } catch (error) {
-      console.error('Contact form error:', error);
-      toast.error('Failed to send message. Please try again.');
-    } finally {
+    // Simulate form submission (static website - opens email client)
+    const subject = `Inquiry from ${formData.name}`;
+    const body = `Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0ACompany: ${formData.company}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
+    const mailtoLink = `mailto:info@sitash.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+    
+    // Open email client
+    window.location.href = mailtoLink;
+    
+    // Show success message
+    setTimeout(() => {
+      toast.success('Email client opened! Your message will be sent via your email app.');
+      setFormData({ name: '', email: '', company: '', message: '' });
       setIsSubmitting(false);
-    }
+    }, 500);
   };
 
   return (

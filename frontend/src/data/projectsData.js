@@ -72,22 +72,50 @@ export const projectsData = [
     technologies: ['Android 14', 'Google EDLA', 'AI Features', 'Multi-Device Cast']
   },
   {
-    id: 'education-camera-4k',
-    title: '4K Education Camera',
+    id: 'spx48-camera',
+    title: 'Sitash SPX48 4K 20X PTZ Camera',
     category: 'Education Cameras',
-    description: 'Professional 4K camera system with auto-tracking for lecture recording and live streaming.',
-    longDescription: 'Advanced 4K camera designed specifically for educational environments. Features auto-tracking technology that follows the instructor, PTZ (Pan-Tilt-Zoom) controls, and seamless integration with interactive panels. Perfect for hybrid learning, lecture capture, and distance education programs.',
-    image: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800',
-    year: '2024',
-    client: 'Camera Solutions',
-    services: ['4K Recording', 'Auto-Tracking', 'Live Streaming'],
-    results: [
-      '4K Ultra HD Recording',
-      'AI-Powered Auto-Tracking',
-      'PTZ Remote Control',
-      'Live Streaming Ready'
+    description: 'Professional 4K PTZ camera with 20X optical zoom, Sony CMOS sensor, and intelligent tracking. Perfect for lecture capture and video conferencing.',
+    longDescription: 'The Sitash SPX48 is a premium 4K PTZ camera designed specifically for educational and professional environments. Featuring a Sony 1/2.8\" HD CMOS sensor with 8.29 effective megapixels, this camera delivers exceptional image quality with vivid colors and high resolution. The 20X optical zoom (f=5.33mm~92.60mm) provides flexible framing options, while the advanced ISP processing ensures fantastic color rendition even in challenging lighting conditions.',
+    image: '/products/camera-spx48-front.jpg',
+    images: [
+      '/products/camera-spx48-front.jpg',
+      '/products/camera-spx48-angle1.jpg',
+      '/products/camera-spx48-angle2.jpg',
+      '/products/camera-spx48-top.jpg'
     ],
-    technologies: ['4K Sensor', 'AI Tracking', 'RTSP/RTMP', 'USB 3.0']
+    year: '2024',
+    client: 'Professional Camera Series',
+    services: ['4K Recording', 'PTZ Control', 'Live Streaming'],
+    results: [
+      '4K Ultra HD @ 30fps (3840×2160)',
+      '20X Optical Zoom',
+      'Sony 1/2.8\" CMOS Sensor (8.29MP)',
+      'Intelligent Auto-Tracking',
+      '±168° Pan, -30°~+90° Tilt',
+      'Up to 255 Preset Positions'
+    ],
+    technologies: ['USB 3.0', 'HDMI 1.4', 'RS232/RS485', 'VISCA/Pelco Protocol'],
+    specifications: {
+      sensor: 'Sony 1/2.8\" HD Color CMOS',
+      resolution: '8.29 Megapixels',
+      zoom: '20X Optical Zoom',
+      lens: 'f=5.33mm~92.60mm, F1.55~F3.13',
+      fov: 'H: 55.8°(W)~3.2°(T), V: 32.2°(W)~1.8°(T)',
+      pan: '±168°',
+      tilt: '-30°~+90°',
+      speed: '1°~60°/s',
+      presets: 'Up to 255 positions',
+      minLux: '0.5 Lux @ F1.8',
+      snr: '≥50dB',
+      outputs: 'HDMI 4K30, USB 3.0',
+      protocols: 'VISCA, Pelco-D, Pelco-P',
+      power: 'DC 12V, Max 10W',
+      weight: '1.2kg',
+      dimensions: '180×180×175mm',
+      tracking: 'Intelligent Auto-Tracking, Auto Frame',
+      os: 'Windows 7+, MacOS, Linux, Android'
+    }
   },
   {
     id: 'smart-classroom-package',
