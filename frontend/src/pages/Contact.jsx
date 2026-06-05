@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Hero } from '../components/sections/Hero';
 import { SectionTitle } from '../components/common/SectionTitle';
 import { useSEO, SEO_DEFAULTS } from '../helpers/seo';
+import { CONTACT_EMAIL, CONTACT_PHONE, COMPANY_ADDRESS } from '../helpers/constants';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import { toast } from 'sonner';
@@ -32,7 +33,7 @@ export const Contact = () => {
     // Simulate form submission (static website - opens email client)
     const subject = `Inquiry from ${formData.name}`;
     const body = `Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0ACompany: ${formData.company}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
-    const mailtoLink = `mailto:info@sitash.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+    const mailtoLink = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${body}`;
     
     // Open email client
     window.location.href = mailtoLink;
@@ -84,10 +85,10 @@ export const Contact = () => {
                       Email Us
                     </h3>
                     <a 
-                      href="mailto:hello@sitash.com"
+                      href={`mailto:${CONTACT_EMAIL}`}
                       className="text-[#52525B] hover:text-[#2563EB] transition-colors"
                     >
-                      hello@sitash.com
+                      {CONTACT_EMAIL}
                     </a>
                   </div>
                 </div>
@@ -104,10 +105,10 @@ export const Contact = () => {
                       Call Us
                     </h3>
                     <a 
-                      href="tel:+15551234567"
+                      href={`tel:${CONTACT_PHONE}`}
                       className="text-[#52525B] hover:text-[#2563EB] transition-colors"
                     >
-                      +1 (555) 123-4567
+                      {CONTACT_PHONE}
                     </a>
                   </div>
                 </div>
@@ -124,8 +125,7 @@ export const Contact = () => {
                       Visit Us
                     </h3>
                     <p className="text-[#52525B]">
-                      123 Innovation Street<br />
-                      Tech City, TC 12345
+                      {COMPANY_ADDRESS}
                     </p>
                   </div>
                 </div>

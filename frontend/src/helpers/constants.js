@@ -1,8 +1,8 @@
 export const SITE_NAME = 'Sitash';
 export const SITE_TAGLINE = 'Transforming Education Through Technology';
-export const CONTACT_EMAIL = 'info@sitash.com';
-export const CONTACT_PHONE = '+91 99100 11222';
-export const COMPANY_ADDRESS = 'Delhi, India';
+export const CONTACT_EMAIL = 'Piinfinity.technology@gmail.com';
+export const CONTACT_PHONE = '+91 7000642339';
+export const COMPANY_ADDRESS = 'A-46, Wazirpur Industrial Area, Delhi';
 
 export const SOCIAL_LINKS = {
   linkedin: 'https://linkedin.com',
